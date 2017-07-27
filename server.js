@@ -9,7 +9,6 @@
 /**
  * Module dependencies
  */
-
 require('dotenv').config();
 
 const fs = require('fs');
@@ -54,3 +53,4 @@ function connect () {
   var options = { server: { socketOptions: { keepAlive: 1 } } };
   return mongoose.connect(config.db, options).connection;
 }
+//卧槽 应该不会吧
