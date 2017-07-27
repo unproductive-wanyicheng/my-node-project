@@ -45,6 +45,8 @@ connect()
 
 function listen () {
   if (app.get('env') === 'test') return;
+  app.set('port', port);
+  console.log(app.get('port'))
   app.listen(port);
   console.log('Express app started on port ' + port);
 }
