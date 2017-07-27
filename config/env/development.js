@@ -6,7 +6,7 @@
 
 module.exports = {
   // db: 'mongodb://localhost/noobjs_dev',
-  db: 'mongodb://wan:123@ds011933.mlab.com:11933/heroku_h9bsnts8',
+  db: 'mongodb://wan:123@ds111469.mlab.com:11469/heroku_qjckl9kq',
   facebook: {
     clientID: process.env.FACEBOOK_CLIENTID,
     clientSecret: process.env.FACEBOOK_SECRET,
